@@ -20,24 +20,24 @@ This is a simple Spring Boot project that demonstrates basic concepts like depen
 ./gradlew test
 
 ## Project Structure
-spring-boot-user-demo/
-│
-├── src/
-│ │
-│ ├── main/
-│ │ ├── java/com/example/demo/
-│ │ │ ├── DemoApplication.java
-│ │ │ ├── model/User.java
-│ │ │ ├── repo/FakeRepoInterface.java
-│ │ │ ├── repo/FakeRepo.java
-│ │ │ ├── service/UserService.java
-│ │ │ ├── service/UserServiceImpl.java
-│ │ └── test/
-│ │ └── java/com/example/demo/
-│ │ └── service/UserServiceTests.java
-│
-├── build.gradle
-├── README.md
+spring-boot-user-demo/ <br />
+│ <br />
+├── src/ <br />
+│ │ <br />
+│ ├── main/ <br />
+│ │ ├── java/com/example/demo/ <br />
+│ │ │ ├── DemoApplication.java <br />
+│ │ │ ├── model/User.java <br />
+│ │ │ ├── repo/FakeRepoInterface.java <br />
+│ │ │ ├── repo/FakeRepo.java <br />
+│ │ │ ├── service/UserService.java <br />
+│ │ │ ├── service/UserServiceImpl.java <br />
+│ │ └── test/ <br />
+│ │ └── java/com/example/demo/ <br />
+│ │ └── service/UserServiceTests.java <br />
+│ <br />
+├── build.gradle <br />
+├── README.md <br />
 
 ## How It Works
 1. **User Model**: Represents a user with `id`, `name`, and `surname`.
