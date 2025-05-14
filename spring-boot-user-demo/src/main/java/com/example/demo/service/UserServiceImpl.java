@@ -2,13 +2,12 @@ package com.example.demo.service;
 
 import com.example.demo.repo.FakeRepoInterface;
 import org.springframework.stereotype.Service;
-import org.springframework.beans.factory.annotation.Autowired;
 
 @Service
 public class UserServiceImpl implements UserService {
     private final FakeRepoInterface fakeRepo;
 
-    @Autowired
+
     public UserServiceImpl(FakeRepoInterface fakeRepo) {
         this.fakeRepo = fakeRepo;
     }
